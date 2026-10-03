@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ku" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="KurdChat — Bi zimanê me biaxivin. Kürtçe sohbet uygulaması.">
+  <title>KurdChat — Bi zimanê me biaxivin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#"><img class="brand-logo" src="kurdchat-logo.png" alt="KurdChat"></a>
+    <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="desktop-menu">
+      <a href="#about">Derbarê me</a>
+      <a href="#features">Taybetmendî</a>
+      <a href="#download">Daxistin</a>
+      <a href="#privacy">Rênivîsa taybetî</a>
+    </nav>
+    <nav class="mobile-menu" id="mobile-menu">
+      <a href="#about">Derbarê me</a>
+      <a href="#features">Taybetmendî</a>
+      <a href="#download">Daxistin</a>
+      <a href="#privacy">Rênivîsa taybetî</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="glow glow-a"></div>
+      <div class="glow glow-b"></div>
+      <div class="hero-copy">
+        <img class="hero-logo" src="kurdchat-logo.png" alt="KurdChat">
+        <div class="pill">💬 Kurdî · Sohbet · Civak</div>
+        <h1>Bi zimanê xweyi dayike <br><span>biaxivin.</span></h1>
+        <p>KurdChat, ji bo axaftina bi zimanê Kurdî hatiye çêkirin. Bi hêsanî bi hevalên xwe re biaxivin û peyamên xwe bi ewlehî bişînin.</p>
+        <div class="hero-actions" id="download">
+          <a class="btn primary" href="kurdchat.apk" download>
+            <span>▣</span> KurdChat ji bo Android
+          </a>
+          <a class="btn secondary" href="#features">Zêdetir bizane</a>
+        </div>
+        <p class="version">Versiyon 1.0 · Android · Belaş</p>
+      </div>
+
+      <div class="phone-wrap" aria-label="KurdChat xemgînî">
+        <div class="phone">
+          <div class="speaker"></div>
+          <div class="screen">
+            <div class="mini-top"><span>‹</span><b>KurdChat</b><span>⋮</span></div>
+            <div class="chat-bubble left">Silav 👋<br>Tu çawa yî?</div>
+            <div class="chat-bubble right">Ez baş im, spas! ❤️</div>
+            <div class="chat-bubble left">Bi xêr hatî KurdChatê.</div>
+            <div class="input"><span>Peyama xwe binivîse...</span><b>➤</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <span>TA YÊBETMENDÎ</span>
+        <h2>Ji bo Kurdî hatiye çêkirin.</h2>
+        <p>Armanca KurdChat ew e ku axaftina bi zimanê Kurdî hêsan, xweş û erişîbar bike.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><div class="icon">💬</div><h3>Sohbeta Kurdî</h3><p>Bi hevalên xwe re bi zimanê Kurdî biaxivin.</p></article>
+        <article class="card"><div class="icon">⚡</div><h3>Peyamên zû</h3><p>Peyamên xwe bi rêya servera KurdChat bi zû bişînin.</p></article>
+        <article class="card"><div class="icon">🔒</div><h3>Hewceyê ewlehiyê</h3><p>Em li ser parastina daneyên bikarhêneran dixebitin.</p></article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div>
+        <span class="eyebrow">KURDCHAT</span>
+        <h2>Zimanê me, civaka me.</h2>
+      </div>
+      <p>KurdChat projeyek e ku ji bo çêkirina platformeke sohbetê ya bi zimanê Kurdî hatiye amadekirin. Ev malper jî cihê fermî ye ku bikarhêner dikarin li vir agahdariya derbarê sepanê û guhertoyên nû bistînin.</p>
+    </section>
+
+    <section class="download-section">
+      <div>
+        <span class="eyebrow">AMAD E?</span>
+        <h2>KurdChatê niha daxîne.</h2>
+        <p>Sepona Androidê daxîne û bi hevalên xwe re biaxive.</p>
+      </div>
+      <a class="btn primary large" href="kurdchat.apk" download>↓ Daxistina APK</a>
+    </section>
+
+    <section class="legal" id="privacy">
+      <div>
+        <span class="eyebrow">RÊNIVÎSA TAYBETÎ</span>
+        <h2>Parastina taybetiya te girîng e.</h2>
+        <p>Ev beşa destpêkê ye. Berî ku KurdChat ji bo bikarhênerên giştî were belavkirin, dê rênivîsa taybetiyê ya bêkêmasî li vir were zêdekirin.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><img class="footer-logo" src="kurdchat-logo.png" alt="KurdChat"></div>
+    <div>© <span id="year"></span> KurdChat</div>
+    <div class="footer-links"><a href="#privacy">Taybetî</a><a href="mailto:destek@kurdchat.com.tr">Piştgirî</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
